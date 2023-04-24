@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #424141;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.caja img {
+    width: 150px;
+}
+
+.caja p {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav li:last-child {
+    color: green;
+}
+
+nav a {
+    color: #A9A6A6;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.card-li {
+    display: flex;
+    margin-left: 0;
+    padding: 0;
+}
+
+.card-li .javascript {
+    background: #FFC300;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.card-li .react {
+    background: #5ABEC2;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.card-li .negocio {
+    background: #424141;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.card-li .startup {
+    background: #C70039;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.texto-presentacion {
+    text-align: center;
+}
+
+.texto-presentacion p {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.texto-presentacion h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.col img {
+    width: 100%;
+}
+
+.info {
+    background: #424141;
+    color: white;
+    justify-content: start;
+    font-size: 14px;
+}
+
+.info h3, p, button {
+    padding: 10px 0 0 10px;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+.padron {
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 70%;
+}
+
+form p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background: #12344B;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li {
+    display: inline;
+    margin: 0 50px;
+}
